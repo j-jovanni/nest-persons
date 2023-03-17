@@ -15,7 +15,7 @@ async function bootstrap() {
     app.useGlobalPipes(new common_1.ValidationPipe({
         whitelist: true,
     }));
-    await app.listen(8081);
+    await app.listen(8080);
 }
 bootstrap();
 //# sourceMappingURL=main.js.map
